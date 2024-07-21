@@ -6,7 +6,7 @@ import java.util.Map;
 
 @Service
 public class ApiService {
-    private Map<String, String> data = new HashMap<>();
+    public static Map<String, String> data = new HashMap<>();
 
     public ApiService() {
         data.put("1", "First Entry");
